@@ -20,7 +20,7 @@
     <body>
         <main>
             <h1>こでまり日記</h1>
-            <article><pre><div id="contents"></div></pre></article>
+            <article><div id="contents"></div></article>
         </main>
         <footer>
             <small>
@@ -37,7 +37,7 @@
                 let temp = data.split(/\n/);
                 let temp1 = `
                     <h2>${temp[0]}</h2>
-                    ${temp.slice(1).join('<br />')}
+                    <pre>${temp.slice(1).join('')}</pre>
                 `;
                 $('#contents').html(temp1);
             }).fail((xhr, stat, err) => {
