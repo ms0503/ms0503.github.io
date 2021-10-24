@@ -1,4 +1,8 @@
 @charset 'UTF-8';
+.no-novel {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
 .novel {
     font-family: serif;
     font-size: 1rem;
