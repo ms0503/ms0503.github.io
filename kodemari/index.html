@@ -32,7 +32,7 @@
             if(getQueryParams(location.search)['p'] !== undefined && parseInt(getQueryParams(location.search)['p'], 10) !== NaN) $.ajax({
                 dataType: 'html',
                 type: 'GET',
-                url: `${getQueryparams(location.search)['p']}.html`
+                url: `${getQueryParams(location.search)['p']}.html`
             }).done(data => {
                 let temp = data.split(/\n/);
                 let temp1 = `
