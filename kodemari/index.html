@@ -38,7 +38,7 @@
                 let temp = data.split(/\n/);
                 let temp1 = `
                     <h2>${temp[0]}</h2>
-                    <pre class="novel">${temp.slice(1).join('\n')}</pre>
+                    <pre class="${temp[1]}">${temp.slice(2).join('\n')}</pre>
                 `;
                 $('#contents').html(temp1);
             }).fail((xhr, stat, err) => {
