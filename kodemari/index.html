@@ -12,6 +12,7 @@
     <head>
         <meta charset="UTF-8" />
         <base href="https://ms0503.github.io/" />
+        <link rel="stylesheet" href="/css/style.css" />
         <title>こでまり日記 - Sora Tonami(ms0503)</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -37,7 +38,7 @@
                 let temp = data.split(/\n/);
                 let temp1 = `
                     <h2>${temp[0]}</h2>
-                    <pre>${temp.slice(1).join('\n')}</pre>
+                    <pre class="novel">${temp.slice(1).join('\n')}</pre>
                 `;
                 $('#contents').html(temp1);
             }).fail((xhr, stat, err) => {
