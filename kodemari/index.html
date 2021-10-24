@@ -14,11 +14,7 @@
         <base href="https://ms0503.github.io/" />
         <title>こでまり日記 - Sora Tonami(ms0503)</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            jQuery.noConflict();
-        </script>
         <script src="/js/lib.js"></script>
     </head>
     <body>
@@ -33,30 +29,28 @@
             </small>
         </footer>
         <script>
-            jQuery(document).ready($ => {
-                if(location.search.toQueryParams()['p'] !== undefined && parseInt(location.search.toQueryParams()['p'], 10) !== NaN) $.ajax({
-                    dataType: 'html',
-                    type: 'GET',
-                    url: `${location.search.toQueryparams()['p']}.html`
-                }).done(data => {
-                    let temp = data.split(/\n/);
-                    let temp1 = `
-                        <h2>${temp[0]}</h2>
-                        <pre>${temp.slice(1).join('')}</pre>
-                    `;
-                    $('#contents').html(temp1);
-                }).fail((xhr, stat, err) => {
-                    $('#contents').html(`
-                        <p>読み込みに失敗しました。</p>
-                    `);
-                });
-                else $('#contents').html(`
-                    <h2>一覧</h2>
-                    <ul>
-                        <li><a href="/kodemari/?p=1">第一話「きのこ」</a></li>
-                    </ul>
+            if(getQueryParams(location.search)['p'] !== undefined && parseInt(getQueryParams(location.search)['p'], 10) !== NaN) $.ajax({
+                dataType: 'html',
+                type: 'GET',
+                url: `${getQueryparams(location.search)['p']}.html`
+            }).done(data => {
+                let temp = data.split(/\n/);
+                let temp1 = `
+                    <h2>${temp[0]}</h2>
+                    <pre>${temp.slice(1).join('')}</pre>
+                `;
+                $('#contents').html(temp1);
+            }).fail((xhr, stat, err) => {
+                $('#contents').html(`
+                    <p>読み込みに失敗しました。</p>
                 `);
             });
+            else $('#contents').html(`
+                <h2>一覧</h2>
+                <ul>
+                    <li><a href="/kodemari/?p=1">第一話「きのこ」</a></li>
+                </ul>
+            `);
         </script>
     </body>
 </html>
