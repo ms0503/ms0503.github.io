@@ -1,0 +1,14 @@
+{
+    "locAuthor": {
+        "description": "このサイトの作成者。",
+        "message": "渡波 空"
+    },
+    "locDesc": {
+        "description": "このサイトの説明文。",
+        "message": ""
+    },
+    "locName": {
+        "description": "このサイトの名前。",
+        "message": "渡波の家"
+    }
+}

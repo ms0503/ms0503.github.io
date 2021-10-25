@@ -1,0 +1,14 @@
+{
+    "locAuthor": {
+        "description": "Author of this site.",
+        "message": "Sora Tonami"
+    },
+    "locDesc": {
+        "description": "Description of this site.",
+        "message": ""
+    },
+    "locName": {
+        "description": "Name of this site.",
+        "message": "Sora Tonami's Home"
+    }
+}

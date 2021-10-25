@@ -1,0 +1,71 @@
+{
+    "default_locale": "ja",
+    "description": "__MSG_locDesc__",
+    "developer": {
+        "name": "__MSG_locAuthor__",
+        "url": "https://ms0503.github.io/"
+    },
+    "icons": [
+        {
+            "sizes": "36x36",
+            "src": "/icon/android-chrome-36x36.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "48x48",
+            "src": "/icon/android-chrome-48x48.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "72x72",
+            "src": "/icon/android-chrome-72x72.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "96x96",
+            "src": "/icon/android-chrome-96x96.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "128x128",
+            "src": "/icon/android-chrome-128x128.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "144x144",
+            "src": "/icon/android-chrome-144x144.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "152x152",
+            "src": "/icon/android-chrome-152x152.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "192x192",
+            "src": "/icon/android-chrome-192x192.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "256x256",
+            "src": "/icon/android-chrome-256x256.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "384x384",
+            "src": "/icon/android-chrome-384x384.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "512x512",
+            "src": "/icon/android-chrome-512x512.png",
+            "type": "image/png"
+        }
+    ],
+    "manifest_version": 2,
+    "name": "__MSG_locName__",
+    "theme": {
+        "colors": "#fff"
+    },
+    "version": "1.0.0"
+}
