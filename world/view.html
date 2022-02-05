@@ -80,7 +80,7 @@
                 const [title, ...novel] = data.split(/<br \/>/g);
                 $('#title').html(title);
                 $('#novel').html(novel.join('\n'));
-            }).fail(() => $('#novel').html('<p>読み込みに失敗しました。</p>' + location.search));
+            }).fail(() => $('#novel').html('<p>読み込みに失敗しました。</p>' + location.search.id));
         </script>
     </body>
 </html>
