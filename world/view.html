@@ -77,9 +77,9 @@
                 'type': 'GET',
                 'url': `/world/pages/${getQueryParams(location.search).id}.html`
             }).done(data => {
-                const [title, ...novel] = data.split(/<br \/>/g);
+                const [title, ...novel] = data.split(/\n/g);
                 $('#title').html(title);
-                $('#novel').html(novel.join('\n'));
+                $('#novel').html(novel.join('<br />'));
             }).fail(() => $('#novel').html('<p>読み込みに失敗しました。</p>'));
         </script>
     </body>
