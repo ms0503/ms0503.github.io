@@ -78,8 +78,11 @@
                 'url': `/world/pages/${getQueryParams(location.search).id}.html`
             }).done(data => {
                 const [title, ...novel] = data.split(/\n/g);
+                novel.map((e, i, a) => {
+                    if(!e.startsWith('<')) a[i] = e + '<br />';
+                });
                 $('#title').html(title);
-                $('#novel').html(novel.join('<br />'));
+                $('#novel').html(novel.join(''));
             }).fail(() => $('#novel').html('<p>読み込みに失敗しました。</p>'));
         </script>
     </body>
