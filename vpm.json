@@ -1,7 +1,7 @@
 {
     "author": "mihal1073",
     "id": "ms.sora.vpm-main",
-    "name": "mihal1073/ms0503 VPM Main Repo",
+    "name": "mihal1073 VPM Main Repo",
     "packages": {
         "ms.sora.cup-and-saucer": {
             "versions": {
