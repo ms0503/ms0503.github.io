@@ -16,7 +16,7 @@
                     "name": "ms.sora.cup-and-saucer",
                     "repo": "https://ms0503.github.io/vpm.json",
                     "unity": "2022.3",
-                    "url": "https://github.com/ms0503/CupAndSaucer",
+                    "url": "https://github.com/ms0503/CupAndSaucer/releases/download/v1.0.0/ms.sora.cup-and-saucer-1.0.0.zip",
                     "version": "1.0.0",
                     "vpmDependencies": {
                         "com.vrchat.base": ">=3.6.1",
