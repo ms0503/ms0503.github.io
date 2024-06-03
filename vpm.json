@@ -5,6 +5,24 @@
     "packages": {
         "ms.sora.cup-and-saucer": {
             "versions": {
+                "1.0.1": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A set of refillable mugcup and saucer",
+                    "displayName": "Refillable Mugcup and Saucer",
+                    "name": "ms.sora.cup-and-saucer",
+                    "repo": "https://ms0503.github.io/vpm.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/CupAndSaucer/releases/download/v1.0.0/ms.sora.cup-and-saucer-1.0.0.zip",
+                    "version": "1.0.1",
+                    "vpmDependencies": {
+                        "com.vrchat.base": ">=3.6.1",
+                        "com.vrchat.worlds": ">=3.6.1"
+                    }
+                },
                 "1.0.0": {
                     "author": {
                         "email": "mihal1073@outlook.com",
