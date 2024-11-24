@@ -1,0 +1,165 @@
+{
+    "author": "mihal1073",
+    "id": "ms.sora.vpm-deprecated",
+    "name": "mihal1073 VPM Deprecated Repo",
+    "packages": {
+        "ms.sora.badge-kit": {
+            "versions": {
+                "2.1.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A simple toolkit to create an original pin badge",
+                    "displayName": "Badge Kit",
+                    "name": "ms.sora.badge-kit",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/BadgeKit/releases/download/v2.1.0/ms.sora.badge-kit-2.1.0.zip",
+                    "version": "2.1.0",
+                    "vpmDependencies": {
+                        "jp.lilxyzw.liltoon": ">=1.3.7"
+                    }
+                },
+                "2.0.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A simple toolkit to create an original pin badge",
+                    "displayName": "Badge Kit",
+                    "name": "ms.sora.badge-kit",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/BadgeKit/releases/download/v2.0.0/ms.sora.badge-kit-2.0.0.zip",
+                    "version": "2.0.0",
+                    "vpmDependencies": {
+                        "jp.lilxyzw.liltoon": ">=1.3.7"
+                    }
+                },
+                "1.1.1": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A simple toolkit to create an original pin badge",
+                    "displayName": "Badge Kit",
+                    "name": "ms.sora.badge-kit",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/BadgeKit/releases/download/v1.1.1/ms.sora.badge-kit-1.1.1.zip",
+                    "version": "1.1.1"
+                },
+                "1.1.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A simple toolkit to create an original pin badge",
+                    "displayName": "Badge Kit",
+                    "name": "ms.sora.badge-kit",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/BadgeKit/releases/download/v1.1.0/ms.sora.badge-kit-1.1.0.zip",
+                    "version": "1.1.0"
+                },
+                "1.0.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A simple toolkit to create an original pin badge",
+                    "displayName": "Badge Kit",
+                    "name": "ms.sora.badge-kit",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/BadgeKit/releases/download/v1.0.0/ms.sora.badge-kit-1.0.0.zip",
+                    "version": "1.0.0"
+                }
+            }
+        },
+        "ms.sora.cup-and-saucer": {
+            "versions": {
+                "1.0.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "A set of refillable mugcup and saucer",
+                    "displayName": "Refillable Mugcup and Saucer",
+                    "name": "ms.sora.cup-and-saucer",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/CupAndSaucer/releases/download/v1.0.0/ms.sora.cup-and-saucer-1.0.0.zip",
+                    "version": "1.0.0",
+                    "vpmDependencies": {
+                        "com.vrchat.base": ">=3.6.1",
+                        "com.vrchat.worlds": ">=3.6.1"
+                    }
+                }
+            }
+        },
+        "ms.sora.nade-gimmick": {
+            "versions": {
+                "2.0.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "An avatar gimmick that changes facial expression to specified one when avatar is brushed gently",
+                    "displayName": "Nade Gimmick",
+                    "name": "ms.sora.nade-gimmick",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/NadeGimmick/releases/download/v2.0.0/ms.sora.nade-gimmick-2.0.0.zip",
+                    "version": "2.0.0",
+                    "vpmDependencies": {
+                        "nadena.dev.modular-avatar": ">=1.0.0"
+                    }
+                },
+                "1.0.1": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "An avatar gimmick that changes facial expression to specified one when avatar is brushed gently",
+                    "displayName": "Nade Gimmick",
+                    "name": "ms.sora.nade-gimmick",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/NadeGimmick/releases/download/v1.0.1/ms.sora.nade-gimmick-1.0.1.zip",
+                    "version": "1.0.1",
+                    "vpmDependencies": {
+                        "nadena.dev.modular-avatar": ">=1.9.0"
+                    }
+                },
+                "1.0.0": {
+                    "author": {
+                        "email": "mihal1073@outlook.com",
+                        "name": "mihal1073",
+                        "url": "https://ms0503.github.io"
+                    },
+                    "description": "An avatar gimmick that changes facial expression to specified one when avatar is brushed gently",
+                    "displayName": "Nade Gimmick",
+                    "name": "ms.sora.nade-gimmick",
+                    "repo": "https://ms0503.github.io/vpm-deprecated.json",
+                    "unity": "2022.3",
+                    "url": "https://github.com/ms0503/NadeGimmick/releases/download/v1.0.0/ms.sora.nade-gimmick-1.0.0.zip",
+                    "version": "1.0.0",
+                    "vpmDependencies": {
+                        "nadena.dev.modular-avatar": ">=1.9.0"
+                    }
+                }
+            }
+        }
+    },
+    "url": "https://ms0503.github.io/vpm-deprecated.json"
+}
